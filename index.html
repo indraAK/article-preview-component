@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+   <link rel="stylesheet" href="./css/main.css">
+   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+   <title>Frontend Mentor | Article preview component</title>
+</head>
+
+<body>
+
+   <article class="article">
+      <section class="article__header">
+         <img src="./images/drawers.jpg" class="article__img" alt="article-img">
+      </section>
+      <section class="article__body">
+         <h1 class="article__title">
+            Shift the overall look and feel by adding these wonderful
+            touches to furniture in your home
+         </h1>
+         <p class="article__text">
+            Ever been in a room and felt like something was missing? Perhaps
+            it felt slightly bare and uninviting. I’ve got some simple tips
+            to help you make any room feel complete.
+         </p>
+         <div class="article__bottom">
+            <div class="author">
+               <img src="./images/avatar-michelle.jpg" class="author__img" alt="author-img">
+               <div class="author__detail">
+                  <h3 class="author__name">Michelle Appleton</h3>
+                  <p class="author__published">28 Jun 2020</p>
+               </div>
+            </div>
+            <div class="share">
+               <button class="share__icon-btn" id="share-btn">
+                  <i class="fas fa-share"></i>
+               </button>
+               <div class="share__media" id="share-media">
+                  <p>SHARE</p>
+                  <ul class="social-media">
+                     <li class="social-media__item">
+                        <a href="#" class="social-media__icon social-media__icon--fb">
+                           <i class="fab fa-facebook-f"></i>
+                        </a>
+                     </li>
+                     <li class="social-media__item">
+                        <a href="#" class="social-media__icon social-media__icon--twitter">
+                           <i class="fab fa-twitter"></i>
+                        </a>
+                     </li>
+                     <li class="social-media__item">
+                        <a href="#" class="social-media__icon social-media__icon--pinterest">
+                           <i class="fab fa-pinterest"></i>
+                        </a>
+                     </li>
+                  </ul>
+                  <button class="share__icon-btn share__icon-btn--grayish">
+                     <i class="fas fa-share"></i>
+                  </button>
+               </div>
+            </div>
+         </div>
+      </section>
+   </article>
+
+   <script src="./js/script.js"></script>
+</body>
+
+</html>
